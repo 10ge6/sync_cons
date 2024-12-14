@@ -1,0 +1,26 @@
+[2024-12-14 11:56:24]: [10.0.0.2] Starting consensus with initial value 66
+[2024-12-14 11:56:24]: [10.0.0.2] Starting round 1
+[2024-12-14 11:56:24]: [10.0.0.2] Finished sending information to peers in 0.0003 seconds
+[2024-12-14 11:56:24]: [10.0.0.2] Received data from 10.0.0.3 at 1734188184.3836: ['50']
+[2024-12-14 11:56:25]: [10.0.0.2] Received data from 10.0.0.1 at 1734188185.1915: ['66', '50', '62']
+[2024-12-14 11:56:25]: [10.0.0.2] Ended round 1 after 1.0008 seconds. Known values: {66, 50, 62}
+[2024-12-14 11:56:25]: [10.0.0.2] Starting round 2
+[2024-12-14 11:56:25]: [10.0.0.2] Finished sending information to peers in 0.0002 seconds
+[2024-12-14 11:56:25]: [10.0.0.2] Received data from 10.0.0.3 at 1734188185.3922: ['50', '66', '62']
+[2024-12-14 11:56:26]: [10.0.0.2] Received data from 10.0.0.1 at 1734188186.1922: ['66', '50', '62']
+[2024-12-14 11:56:26]: [10.0.0.2] Ended round 2 after 1.0009 seconds. Known values: {66, 50, 62}
+[2024-12-14 11:56:26]: [10.0.0.2] Starting round 3
+[2024-12-14 11:56:26]: [10.0.0.2] Finished sending information to peers in 0.0001 seconds
+[2024-12-14 11:56:26]: [10.0.0.2] Received data from 10.0.0.3 at 1734188186.3851: ['50', '66', '62']
+[2024-12-14 11:56:27]: [10.0.0.2] Received data from 10.0.0.1 at 1734188187.2033: ['66', '50', '62']
+[2024-12-14 11:56:27]: [10.0.0.2] Ended round 3 after 1.0086 seconds. Known values: {66, 50, 62}
+[2024-12-14 11:56:27]: [10.0.0.2] Starting round 4
+[2024-12-14 11:56:27]: [10.0.0.2] Finished sending information to peers in 0.0001 seconds
+[2024-12-14 11:56:27]: [10.0.0.2] Received data from 10.0.0.3 at 1734188187.3910: ['50', '66', '62']
+[2024-12-14 11:56:28]: [10.0.0.2] Received data from 10.0.0.1 at 1734188188.1989: ['66', '50', '62']
+[2024-12-14 11:56:28]: [10.0.0.2] Ended round 4 after 1.0064 seconds. Known values: {66, 50, 62}
+[2024-12-14 11:56:28]: [10.0.0.2] Starting round 5
+[2024-12-14 11:56:28]: [10.0.0.2] Finished sending information to peers in 0.0001 seconds
+[2024-12-14 11:56:28]: [10.0.0.2] Received data from 10.0.0.3 at 1734188188.3992: ['50', '66', '62']
+[2024-12-14 11:56:29]: [10.0.0.2] Ended round 5 after 1.0051 seconds. Known values: {66, 50, 62}
+[2024-12-14 11:56:29]: [10.0.0.2] Consensus reached: 50
