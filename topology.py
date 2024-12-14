@@ -56,6 +56,6 @@ if __name__ == '__main__':
 
     # Keep Mininet running to observe the network
  
-
+    CLI(net)
     net.stop()
 
