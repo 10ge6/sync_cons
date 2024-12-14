@@ -1,2 +1,1 @@
-# sync_cons
-consensus in a synchronous system
+based on distributed systems - concepts and design, by coulouris et al
