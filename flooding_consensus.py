@@ -9,12 +9,17 @@ import random
 # Example: python3 flooding_consensus.py 10.0.0.1 10.0.0.2 10.0.0.3
 
 UDP_PORT = 9999
-ROUNDS = 5
+ROUNDS = 10
 ROUND_DURATION = 1.0  # seconds between rounds
 
+from datetime import datetime
+
 def log_event(event_message):
-    """Log events with timestamps."""
-    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}]: {event_message}")
+    """Log events with timestamps including milliseconds."""
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]  # Format with milliseconds
+    print(f"[{timestamp}]: {event_message}")
+
 
 def main():
     if len(sys.argv) < 3:
@@ -42,10 +47,11 @@ def main():
         # Send known values to all peers
         message = ",".join(map(str, known_values)).encode('utf-8')
         send_start_time = time.time()
-        for p in peers:
-            send_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            send_sock.sendto(message, (p, UDP_PORT))
-            send_sock.close()
+        if my_ip != "10.0.0.3" or r == 6:
+            for p in peers:
+                send_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+                send_sock.sendto(message, (p, UDP_PORT))
+                send_sock.close()
         log_event(f"[{my_ip}] Finished sending information to peers in {time.time() - send_start_time:.4f} seconds")
         
         # Wait to receive values from peers during this round
@@ -69,4 +75,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
