@@ -84,10 +84,18 @@ class FloodingNode:
                 with LOCK:
                     # Process late messages
                     vals = data.decode('utf-8').split(',')
+                    new_values = []
                     for v in vals:
                         if int(v) not in self.known_values:
                             self.known_values.add(int(v))
+                            new_values.append(v)
+
                 self.messages_received += 1
+                log_event(
+                f"[{self.my_ip}] Received data from {addr[0]} at {time.time():.4f}: {vals}. "
+                f"New values added: {new_values if new_values else 'None'}"
+            )
+
             except BlockingIOError:
                 time.sleep(0.01)
 
@@ -148,3 +156,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
