@@ -1,38 +1,63 @@
-[2024-12-14 17:40:05.548]: [10.0.0.3] Starting round 1, current known_values {3}
-[2024-12-14 17:40:05.548]: ROUND 1 [10.0.0.3] message sent to [10.0.0.1] successfully: b'3'
-[2024-12-14 17:40:05.548]: ROUND 1 [10.0.0.3] message sent to [10.0.0.2] successfully: b'3'
-[2024-12-14 17:40:05.548]: ROUND 1 [10.0.0.3] message sent to [10.0.0.4] successfully: b'3'
-[2024-12-14 17:40:05.548]: ROUND 1 [10.0.0.3] message sent to [10.0.0.5] successfully: b'3'
-[2024-12-14 17:40:05.548]: ROUND 1 [10.0.0.3] message sent to [10.0.0.6] successfully: b'3'
-[2024-12-14 17:40:05.548]: [10.0.0.3] Finished sending information in round 1 after 0.0001 seconds
-[2024-12-14 17:40:06.551]: [10.0.0.3] Starting round 2, current known_values {1, 2, 3, 4, 5, 6}
-[2024-12-14 17:40:06.551]: ROUND 2 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:06.551]: ROUND 2 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:06.551]: ROUND 2 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:06.551]: ROUND 2 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:06.551]: ROUND 2 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:06.551]: [10.0.0.3] Finished sending information in round 2 after 0.0001 seconds
-[2024-12-14 17:40:07.554]: [10.0.0.3] Starting round 3, current known_values {1, 2, 3, 4, 5, 6}
-[2024-12-14 17:40:07.554]: ROUND 3 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:07.554]: ROUND 3 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:07.554]: ROUND 3 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:07.554]: ROUND 3 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:07.554]: ROUND 3 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:07.554]: [10.0.0.3] Finished sending information in round 3 after 0.0002 seconds
-[2024-12-14 17:40:08.556]: [10.0.0.3] Starting round 4, current known_values {1, 2, 3, 4, 5, 6}
-[2024-12-14 17:40:08.556]: ROUND 4 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:08.556]: ROUND 4 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:08.556]: ROUND 4 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:08.556]: ROUND 4 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:08.556]: ROUND 4 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:08.556]: [10.0.0.3] Finished sending information in round 4 after 0.0003 seconds
-[2024-12-14 17:40:09.559]: [10.0.0.3] Starting round 5, current known_values {1, 2, 3, 4, 5, 6}
-[2024-12-14 17:40:09.559]: ROUND 5 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:09.559]: ROUND 5 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:09.559]: ROUND 5 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:09.559]: ROUND 5 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:09.559]: ROUND 5 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
-[2024-12-14 17:40:09.559]: [10.0.0.3] Finished sending information in round 5 after 0.0001 seconds
-[2024-12-14 17:40:10.571]: [10.0.0.3] Consensus reached: 1
-[2024-12-14 17:40:10.571]: [10.0.0.3] Final Metrics:
-{"node_ip": "10.0.0.3", "consensus_value": 1, "messages_sent": 25, "messages_received": 25, "messages_lost": 0, "execution_duration": 5.0118, "known_values": [1, 2, 3, 4, 5, 6]}
+[2024-12-16 18:40:01.096]: [10.0.0.3] Starting round 1, current known_values {3}
+[2024-12-16 18:40:01.096]: ROUND 1 [10.0.0.3] message sent to [10.0.0.1] successfully: b'3'
+[2024-12-16 18:40:01.096]: ROUND 1 [10.0.0.3] message sent to [10.0.0.2] successfully: b'3'
+[2024-12-16 18:40:01.096]: ROUND 1 [10.0.0.3] message sent to [10.0.0.4] successfully: b'3'
+[2024-12-16 18:40:01.096]: ROUND 1 [10.0.0.3] message sent to [10.0.0.5] successfully: b'3'
+[2024-12-16 18:40:01.096]: ROUND 1 [10.0.0.3] message sent to [10.0.0.6] successfully: b'3'
+[2024-12-16 18:40:01.096]: [10.0.0.3] Finished sending information in round 1 after 0.0001 seconds
+[2024-12-16 18:40:01.160]: [10.0.0.3] Received data from 10.0.0.4 at 1734385201.1601: ['4']. New values added: ['4']
+[2024-12-16 18:40:01.160]: [10.0.0.3] Received data from 10.0.0.2 at 1734385201.1602: ['2']. New values added: ['2']
+[2024-12-16 18:40:01.160]: [10.0.0.3] Received data from 10.0.0.1 at 1734385201.1602: ['1']. New values added: ['1']
+[2024-12-16 18:40:01.160]: [10.0.0.3] Received data from 10.0.0.6 at 1734385201.1602: ['6']. New values added: ['6']
+[2024-12-16 18:40:01.160]: [10.0.0.3] Received data from 10.0.0.5 at 1734385201.1602: ['5']. New values added: ['5']
+[2024-12-16 18:40:02.096]: [10.0.0.3] Starting round 2, current known_values {1, 2, 3, 4, 5, 6}
+[2024-12-16 18:40:02.096]: ROUND 2 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:02.096]: ROUND 2 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:02.096]: ROUND 2 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:02.096]: ROUND 2 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:02.096]: ROUND 2 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:02.096]: [10.0.0.3] Finished sending information in round 2 after 0.0002 seconds
+[2024-12-16 18:40:02.104]: [10.0.0.3] Received data from 10.0.0.2 at 1734385202.1045: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:02.115]: [10.0.0.3] Received data from 10.0.0.1 at 1734385202.1152: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:02.127]: [10.0.0.3] Received data from 10.0.0.4 at 1734385202.1272: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:02.127]: [10.0.0.3] Received data from 10.0.0.5 at 1734385202.1272: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:02.138]: [10.0.0.3] Received data from 10.0.0.6 at 1734385202.1381: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:03.098]: [10.0.0.3] Starting round 3, current known_values {1, 2, 3, 4, 5, 6}
+[2024-12-16 18:40:03.099]: ROUND 3 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:03.099]: ROUND 3 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:03.099]: ROUND 3 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:03.099]: ROUND 3 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:03.099]: ROUND 3 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:03.099]: [10.0.0.3] Finished sending information in round 3 after 0.0004 seconds
+[2024-12-16 18:40:03.107]: [10.0.0.3] Received data from 10.0.0.2 at 1734385203.1071: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:03.118]: [10.0.0.3] Received data from 10.0.0.1 at 1734385203.1181: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:03.130]: [10.0.0.3] Received data from 10.0.0.4 at 1734385203.1300: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:03.130]: [10.0.0.3] Received data from 10.0.0.5 at 1734385203.1300: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:03.130]: [10.0.0.3] Received data from 10.0.0.6 at 1734385203.1300: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:04.099]: [10.0.0.3] Starting round 4, current known_values {1, 2, 3, 4, 5, 6}
+[2024-12-16 18:40:04.100]: ROUND 4 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:04.100]: ROUND 4 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:04.100]: ROUND 4 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:04.100]: ROUND 4 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:04.100]: ROUND 4 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:04.100]: [10.0.0.3] Finished sending information in round 4 after 0.0002 seconds
+[2024-12-16 18:40:04.114]: [10.0.0.3] Received data from 10.0.0.2 at 1734385204.1144: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:04.114]: [10.0.0.3] Received data from 10.0.0.1 at 1734385204.1145: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:04.124]: [10.0.0.3] Received data from 10.0.0.4 at 1734385204.1247: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:04.135]: [10.0.0.3] Received data from 10.0.0.5 at 1734385204.1351: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:04.135]: [10.0.0.3] Received data from 10.0.0.6 at 1734385204.1351: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:05.101]: [10.0.0.3] Starting round 5, current known_values {1, 2, 3, 4, 5, 6}
+[2024-12-16 18:40:05.101]: ROUND 5 [10.0.0.3] message sent to [10.0.0.1] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:05.101]: ROUND 5 [10.0.0.3] message sent to [10.0.0.2] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:05.102]: ROUND 5 [10.0.0.3] message sent to [10.0.0.4] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:05.102]: ROUND 5 [10.0.0.3] message sent to [10.0.0.5] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:05.102]: ROUND 5 [10.0.0.3] message sent to [10.0.0.6] successfully: b'1,2,3,4,5,6'
+[2024-12-16 18:40:05.102]: [10.0.0.3] Finished sending information in round 5 after 0.0003 seconds
+[2024-12-16 18:40:05.111]: [10.0.0.3] Received data from 10.0.0.2 at 1734385205.1117: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:05.123]: [10.0.0.3] Received data from 10.0.0.1 at 1734385205.1233: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:05.135]: [10.0.0.3] Received data from 10.0.0.4 at 1734385205.1355: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:05.135]: [10.0.0.3] Received data from 10.0.0.5 at 1734385205.1356: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:05.135]: [10.0.0.3] Received data from 10.0.0.6 at 1734385205.1356: ['1', '2', '3', '4', '5', '6']. New values added: None
+[2024-12-16 18:40:06.108]: [10.0.0.3] Consensus reached: 1
+[2024-12-16 18:40:06.108]: [10.0.0.3] Final Metrics:
+{"node_ip": "10.0.0.3", "consensus_value": 1, "messages_sent": 25, "messages_received": 25, "messages_lost": 0, "execution_duration": 5.0065, "known_values": [1, 2, 3, 4, 5, 6]}
