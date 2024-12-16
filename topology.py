@@ -112,5 +112,6 @@ if __name__ == '__main__':
         mensagens_perdidas += metric_dict["messages_lost"]
         mensagens_recebidas += metric_dict["messages_received"]
         
-    print(set(consensus_set), mensagens_enviadas, mensagens_perdidas, mensagens_recebidas)
+    print(f"Consenso atingido: {len(set(consensus_set)) == 1} \nGrupo de consenso: {set(consensus_set)} \nNúmero de mensagens enviadas: {mensagens_enviadas} \nNúmero de mensagens perdidas: {mensagens_perdidas}\nNúmero de mensagens recebidas: {mensagens_recebidas}")
+    
     
